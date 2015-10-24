@@ -5,4 +5,6 @@ import skilstak.colors as c
 try:
     print(c.clear)
     while True:
-        print(c.rc() + "Hello " + c.rc()  `
+        print(c.rc() + "Hello " + c.rc() + " world!", end=" ")
+except KeyboardInterrupt:
+    exit()
