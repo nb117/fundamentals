@@ -2,9 +2,9 @@
 
 """The Ever Glorious Hello World Program"""
 
-def print_plain("Hello world!"):
+def print_plain(message):
     """Print 'Hello world!' in plain text."""
-    print("Hello world!")
+    print(message)
 
 if __name__ == '__main__':
     print_plain("Hello world!")
