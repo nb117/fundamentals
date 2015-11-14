@@ -3,7 +3,7 @@
 """The Ever Glorious Hello World Program"""
 
 def print_plain("Hello world!"):
-    """Print 'Hello world!' in plan text."""
+    """Print 'Hello world!' in plain text."""
     print("Hello world!")
 
 if __name__ == '__main__':
