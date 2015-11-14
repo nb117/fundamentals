@@ -2,9 +2,14 @@
 
 """The Ever So Freaking Glorious Hello World Program"""
 
-def print_plain(message):
-    """Print 'Hello world!' in plain text."""
-    print(message)
+greeting = "YO WAZZAP"
+
+def print_plain(who):
+    print(greeting + " " + who + "!")
+
+def print_foreva(who):
+    while True:
+        print(greeting + " " + who + "!")
 
 if __name__ == '__main__':
-    print_plain("Hello world!")
+    print_foreva("world")
