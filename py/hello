@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""The Ever Glorious Hello World Program"""
+"""The Ever So Freaking Glorious Hello World Program"""
 
 def print_plain(message):
     """Print 'Hello world!' in plain text."""
