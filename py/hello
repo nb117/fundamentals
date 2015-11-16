@@ -2,7 +2,15 @@
 
 """The Ever So Freaking Glorious Hello World Program"""
 
+import skilstak.colors as c
+import time
+
 greeting = "YO WAZZAP"
+
+def print_multi(greeting + " " + who + "!")
+    while True:
+        print(c.clear + c.multi(greeting + " " +
+        time.sleep(0.5)
 
 def print_plain(who):
     print(greeting + " " + who + "!")
