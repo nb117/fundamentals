@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
-import colors as c
+import skilstak.colors as c
+import time
 
+print("Hello sir! I'm roland, A.I of the U.N.S.C flagship Infinity. On this paper you said that you wanted to join the ODST right?")
 
 
