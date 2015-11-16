@@ -4,6 +4,6 @@ import skilstak.colors as c
 import time
 
 print("Hello sir! I'm roland, A.I of the U.N.S.C flagship Infinity. On this paper you said that you wanted to join the ODST right?")
-answer + input('-->' + c.green)
-print("Alright 
+name = input('-->' + c.green)
+print("Alright " + name + ". Before we do anything, I need you 
 
