@@ -7,8 +7,11 @@ def print_plain():
     """Print 'HELLO WORLD!!!' in plain text."""
     print("HELLO WORLD!!!")
     print("This program is just for show only, but for those who are new here can tell that this is what they are going to make in fundimentals. But hope you like it anyways!")
-    print("But hey! just remember that the future will hold a lot new things for you in this place, so yea. :)")
+    print("But hey! Just remember that the future will hold a lot new things for you in this place, so yea. :)")
 
+def print_foreva(>_<):
+    while Ture:
+        print(c.multi + 
 if __name__ == '__main__':
 
     print_plain()
