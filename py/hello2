@@ -10,8 +10,8 @@ def print_plain():
     print("But hey! Just remember that the future will hold a lot new things for you in this place, so yea. :)")
 
 def print_foreva(>_<):
-    while Ture:
-        print(c.multi + 
+    while True:
+        print(c.multi +  
 if __name__ == '__main__':
 
     print_plain()

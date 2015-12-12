@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 
-def print_plain():
+import skilstak.colors as c
+import time
 
-print("Hello Hello?
+
+
+def print_forever():
+    while True:
+        print(c.multi + "FNAF!")
+    
+if __name__ == '__main__':
+    print_forever("FNAF!")
