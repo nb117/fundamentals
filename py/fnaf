@@ -5,9 +5,9 @@ import time
 
 
 
-def print_forever():
+def print_foreva(who):
     while True:
-        print(c.multi + "FNAF!")
+        print(c.multi + "FNAF!" + who)
     
 if __name__ == '__main__':
-    print_forever("FNAF!")
+    print_foreva("FNAF!")

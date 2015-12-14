@@ -5,19 +5,35 @@
 import skilstak.colors as c
 import time
 
-greeting = "YO WAZZAP"
-
-def print_multi(greeting + " " + who + "!")
+def print_multi(message)
     while True:
-        print(c.clear + c.multi(greeting + " " +
+        print(c.clear + c.multi(message))
         time.sleep(0.5)
 
-def print_plain(who):
-    print(greeting + " " + who + "!")
+def print_plain(message):
+    print(c.cl + c.x + message)
 
-def print_foreva(who):
+def print_foreva(message):
     while True:
-        print(greeting + " " + who + "!")
+        print(c.cl + c.x + message, end=" ")
 
-if __name__ == '__main__':
-    print_foreva("world")
+def print_color(messege):
+    print(c.cl, end="")
+    while True:
+        print(c.rc() + message + c.x, end=" ")
+
+def parse_args():
+    from sys import argv
+
+    name = "World"
+    option = ""
+
+    if len(argv) > 2:
+        option = argv[1]
+        name = argv[2]
+    elif len(argv) == 2:
+        if argv[1].startswith("-"):
+            option = argv[1]
+        else:
+            name = argv[1]
+    return name, option
