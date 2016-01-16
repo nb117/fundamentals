@@ -14,4 +14,11 @@ var c = require('skilstak-colors');
 
 var undertale = function () {
   console.log("SANS! GET OFF MY COMPUTER!"); console.log(c.blue + "ok papayrus. ~ two cool dudes")
+}
+
+
  theLord();
+
+ disco();
+
+ undertale();
