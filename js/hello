@@ -2,4 +2,16 @@
 
 'use strict'
 
-console.log('ELLO JEUSUS!!')
+var c = require('skilstak-colors');
+
+ function theLord() {
+   console.log(c.yellow + "ELLO JESUS! ELLO GOD!"); console.log(c.red + "and solong satin! ~ random priest")
+ }
+
+ var disco = function () {
+   console.log(c.multi("COMENCE SWEET DISCO RAVE PARTY!  ~ mettaton"));
+ }
+
+var undertale = function () {
+  console.log("SANS! GET OFF MY COMPUTER!"); console.log(c.blue + "ok papayrus. ~ two cool dudes")
+ theLord();
