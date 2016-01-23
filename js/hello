@@ -5,7 +5,7 @@
 var c = require('skilstak-colors');
 
  function theLord() {
-   console.log(c.yellow + "ELLO JESUS! ELLO GOD!"); console.log(c.red + "and solong satin! ~ random priest")
+   console.log(c.yellow + "ELLO JESUS! ELLO GOD!" + c.x); console.log(c.red + "and solong satin! ~ random priest" + c.x)
  }
 
  var disco = function () {
@@ -13,9 +13,16 @@ var c = require('skilstak-colors');
  }
 
 var undertale = function () {
-  console.log("SANS! GET OFF MY COMPUTER!"); console.log(c.blue + "ok papayrus. ~ two cool dudes")
+  console.log("SANS! GET OFF MY COMPUTER!" + c.x); console.log(c.blue + "ok papayrus. ~ two cool dudes" + c.x)
 }
 
+var ILLUMINATI = function (message) {
+  while (true) {
+    console.log(c.g + "Message: " + message + c.x);
+  }
+}
+
+//ILLUMINATI("ILLUMINATI! YOU'VE COME TO TAKE CONTROL!!!!")
 
  theLord();
 
