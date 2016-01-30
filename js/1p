@@ -1,3 +1,13 @@
 #!/usr/bin/env node
 
 'use strict'
+
+var c = require('skilstak-colors');
+
+function powerArmor(){
+  console.log('When you find X-01 power armor in fallout 3-vegas-4, "HOLY CRAP I DID IT HOLY CRAAAAAAAPPPP!!!!!!!!!!!!!"')
+}
+
+var theBrotherhood = function (message) {
+  console.log(c.red() + message);
+}
